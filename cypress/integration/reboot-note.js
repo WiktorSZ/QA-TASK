@@ -3,7 +3,7 @@ import InstalationPage from "../page-objects/instalation-page";
 import { demoStart } from "../support/mock";
 import "cypress-localstorage-commands";
 
-describe("Reboot note ", () => {
+describe("Reboot note", () => {
   beforeEach(() => {
     cy.viewport(1920, 1080);
     demoStart();
