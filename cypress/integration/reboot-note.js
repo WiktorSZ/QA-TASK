@@ -11,7 +11,7 @@ describe("Reboot note ", () => {
     cy.setLocalStorage("uc_user_interaction", true); // mocking the localstorage to ignore cookies modal
   });
 
-  it("Verifies if note functionality is available after module reboot", () => {
+  it("Verifies if note functionality is available after gate reboot", () => {
     HomePage.runDemoButton().click();
     cy.wait("@demoStart");
     HomePage.offlineButton().click();

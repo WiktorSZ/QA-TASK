@@ -19,5 +19,5 @@ Available browsers: Chrome 97
 ## Test case:
 
 /integration/reboot-note.js:
-* Verifies if note functionality is available after module reboot
+* Verifies if note functionality is available after gate reboot
 
