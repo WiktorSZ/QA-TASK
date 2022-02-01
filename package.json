@@ -1,0 +1,29 @@
+{
+  "name": "viessmann-task",
+  "version": "1.0.0",
+  "description": "QA task",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WiktorSZ/VIESSMANN-QA-TASK.git"
+  },
+  "keywords": [
+    "qa",
+    "task"
+  ],
+  "author": "Wiktor Szczepaniak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WiktorSZ/VIESSMANN-QA-TASK/issues"
+  },
+  "homepage": "https://github.com/WiktorSZ/VIESSMANN-QA-TASK#readme",
+  "dependencies": {
+    "cypress": "^9.3.1"
+  },
+  "devDependencies": {
+    "cypress-localstorage-commands": "^1.6.1"
+  }
+}
